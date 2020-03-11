@@ -24,7 +24,7 @@ li {
 
 header {
     margin-bottom: 40px;
-    
+
 }
 
 img {
@@ -67,6 +67,7 @@ footer p {
 
     .container {
         display: flex;
+
     }
 
     .top-img {
@@ -79,6 +80,16 @@ footer p {
         order: 1;
         padding-right: 1em;
     }
+
+  .section-1 {
+      flex: 1;
+  }
+
+  .section-2 {
+      flex: 1;
+  }
+
+
 
    
 
