@@ -4,8 +4,8 @@
 }
 
 body {
-    margin: auto;
-    padding: 20px;
+    padding-left: 1em;
+    padding-right: 1em;
 
     text-align: center;
     font-family: 'Spartan', sans-serif;
@@ -38,4 +38,16 @@ img {
 
 footer p {
     display: inline-block;
+}
+
+/* Media Queries */
+
+@media(min-width: 768px) {
+    body,
+    .section {
+        width: 70%;
+        max-width: 1000px;
+        margin: auto;
+    }
+
 }
