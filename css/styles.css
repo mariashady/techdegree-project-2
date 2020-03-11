@@ -38,7 +38,7 @@ img {
 
 .section {
     margin-bottom: 40px;
-    
+
 }
 
 /* .tablet-width {
@@ -67,12 +67,6 @@ footer p {
         display: inline-block;
     }
 
-    /* header img {
-        float: right;
-        max-width: 40%;
-        padding-left: 1em;
-    } */
-
     .container {
         display: flex;
 
@@ -96,7 +90,7 @@ footer p {
     .section-1 {
         flex: 1;
         padding: 10px;
-        
+
     }
 
     .section-2 {
