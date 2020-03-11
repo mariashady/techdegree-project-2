@@ -1,7 +1,10 @@
+/* Universal Styles */
 
 * {
     box-sizing: border-box;
 }
+
+/* Base Element Styles */
 
 body {
     padding-left: 1em;
@@ -21,6 +24,7 @@ li {
 
 header {
     margin-bottom: 40px;
+    
 }
 
 img {
@@ -43,11 +47,42 @@ footer p {
 /* Media Queries */
 
 @media(min-width: 768px) {
+
     body,
     .section {
-        width: 70%;
+        width: 100%;
         max-width: 1000px;
-        margin: auto;
+        margin: 0 auto;
     }
+
+    li {
+        display: inline-block;
+    }
+
+    /* header img {
+        float: right;
+        max-width: 40%;
+        padding-left: 1em;
+    } */
+
+    .container {
+        display: flex;
+    }
+
+    .top-img {
+        flex: 1;
+        order: 2;
+    }
+
+    .about-paragraph {
+        flex: 2;
+        order: 1;
+        padding-right: 1em;
+    }
+
+   
+
+
+  
 
 }
