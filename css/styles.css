@@ -27,6 +27,10 @@ header {
 
 }
 
+h2 {
+    margin-bottom: 40px;
+}
+
 img {
     max-width: 100%;
     margin-bottom: 20px;
@@ -34,7 +38,12 @@ img {
 
 .section {
     margin-bottom: 40px;
+    
 }
+
+/* .tablet-width {
+    width: 40%;
+} */
 
 .contact h4 {
     text-transform: uppercase;
@@ -48,8 +57,7 @@ footer p {
 
 @media(min-width: 768px) {
 
-    body,
-    .section {
+    body {
         width: 100%;
         max-width: 1000px;
         margin: 0 auto;
@@ -81,19 +89,27 @@ footer p {
         padding-right: 1em;
     }
 
-  .section-1 {
-      flex: 1;
-  }
+    .parent {
+        display: flex;
+    }
 
-  .section-2 {
-      flex: 1;
-  }
+    .section-1 {
+        flex: 1;
+        padding: 10px;
+        
+    }
+
+    .section-2 {
+        flex: 1;
+        padding: 10px;
+    }
 
 
 
-   
 
 
-  
+
+
+
 
 }
